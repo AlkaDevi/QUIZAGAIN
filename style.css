@@ -1,0 +1,72 @@
+ * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+    .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(74, 143, 199); */
+        /* background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.5)),url(new.jpeg);
+         background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; */
+    }
+    
+    .main1 {
+        display:block;
+        justify-content: center;
+
+        /* align-items: center; */
+        background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.5)),url(new.jpeg);
+         background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .container {
+        width: 30rem;
+        box-shadow: 0px 5px 20px rgb(59, 200, 207);
+        display: flex;
+        background-color: rgb(50, 104, 100);
+        border-radius: 10px;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    
+    .col {
+        text-align: justify;
+        padding: 15px;
+        width: 95%;
+    }
+    
+    #submit {
+        width: 100%;
+        background-color: rgb(122, 181, 175);
+        transition: 0;
+        color: rgb(0, 0, 0);
+        outline: none;
+        border: none;
+        font-size: 15px;
+        display: block;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    #submit:hover {
+        background-color: rgb(35, 129, 129);
+    }
+    
+    .box {
+        box-shadow: 0px -1px 1px rgb(13, 96, 110);
+        width: 100%;
+       
+    }
